@@ -10,16 +10,16 @@
   <rect width="1280" height="640" fill="url(#banner-bg)"/>
 
   <!-- Decorative elements -->
-  <circle cx="1200" cy="100" r="300" fill="#3498db" opacity="0.05"/>
-  <circle cx="80" cy="540" r="200" fill="#3498db" opacity="0.05"/>
+  <circle cx="200" cy="150" r="120" fill="#3498db" opacity="0.06"/>
+  <circle cx="1150" cy="500" r="100" fill="#3498db" opacity="0.06"/>
 
   <!-- Top accent bar -->
   <rect x="0" y="0" width="1280" height="8" fill="#3498db"/>
 
-  <!-- VueFrag badge -->
+  <!-- Vuefrag badge -->
   <g transform="translate(80, 80)">
     <rect width="140" height="50" rx="8" fill="#3498db"/>
-    <text x="70" y="33" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="white">VueFrag</text>
+    <text x="70" y="33" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="white">Vuefrag</text>
   </g>
 
   <!-- Package name -->
@@ -30,7 +30,7 @@
 
   <!-- Install command -->
   <g transform="translate(80, 420)">
-    <rect width="500" height="60" rx="8" fill="#0f172a"/>
+    <rect width="571.2" height="60" rx="8" fill="#0f172a"/>
     <text x="20" y="40" font-family="ui-monospace, monospace" font-size="24" fill="#94a3b8">npm install</text>
     <text x="200" y="40" font-family="ui-monospace, monospace" font-size="24" fill="#3498db">vue-make-destructurable</text>
   </g>
@@ -41,12 +41,8 @@
     <text x="79" y="27" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#3498db">Utilities</text>
   </g>
 
-  <!-- Vue logo hint -->
-  <g transform="translate(1080, 480)">
-    <polygon points="100,20 140,100 60,100" fill="#3498db" opacity="0.3"/>
-    <polygon points="100,40 125,90 75,90" fill="#3498db" opacity="0.5"/>
+  <!-- Category icon (top right corner) -->
+  <g>
+    <path d="M1040 120l-40 40 40 40" fill="none" stroke="#3498db" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M1120 120l40 40-40 40" fill="none" stroke="#3498db" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><line x1="1105" y1="110" x2="1055" y2="190" stroke="#3498db" stroke-width="10" stroke-linecap="round"/>
   </g>
-
-  <!-- Bottom text -->
-  <text x="1200" y="600" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#64748b">Standalone VueUse function</text>
 </svg>
