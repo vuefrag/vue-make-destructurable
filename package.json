@@ -1,0 +1,63 @@
+{
+  "name": "vue-make-destructurable",
+  "version": "1.0.0",
+  "description": "Vue 3 utility enabling both object and array destructuring",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "logo.svg",
+    "banner.svg"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "vue-3",
+    "composable",
+    "composition-api",
+    "vueuse",
+    "utility",
+    "helper",
+    "utils",
+    "make",
+    "destructurable",
+    "destructure",
+    "array",
+    "object",
+    "isomorphic",
+    "dual",
+    "flexible",
+    "spread",
+    "makeDestructurable"
+  ],
+  "author": "VueFrag",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuefrag/vue-make-destructurable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vuefrag/vue-make-destructurable/issues"
+  },
+  "homepage": "https://github.com/vuefrag/vue-make-destructurable#readme",
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  },
+  "devDependencies": {
+    "unbuild": "^2.0.0",
+    "typescript": "^5.0.0",
+    "vue": "^3.4.0"
+  }
+}
