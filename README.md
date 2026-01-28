@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.svg" alt="vue-make-destructurable" width="100%" />
+  <img src="https://raw.githubusercontent.com/vuefrag/vue-make-destructurable/main/banner.svg" alt="vue-make-destructurable" width="100%" />
 </p>
 
 <h1 align="center">vue-make-destructurable</h1>
