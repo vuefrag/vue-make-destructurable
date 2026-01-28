@@ -1,7 +1,7 @@
 {
   "name": "vue-make-destructurable",
-  "version": "1.0.2",
-  "description": "Vue 3 composable utility",
+  "version": "1.0.3",
+  "description": "Vue 3 utility enabling both object and array destructuring",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -24,6 +24,11 @@
     "postpublish": "cp README.github.md README.md"
   },
   "keywords": [
+    "vue",
+    "vue3",
+    "composition-api",
+    "composable",
+    "vueuse",
     "destructure",
     "array",
     "object",
