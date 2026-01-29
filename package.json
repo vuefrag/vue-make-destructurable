@@ -1,6 +1,6 @@
 {
   "name": "vue-make-destructurable",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Vue 3 utility enabling both object and array destructuring",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
@@ -46,7 +46,7 @@
   },
   "homepage": "https://github.com/vuefrag/vue-make-destructurable#readme",
   "peerDependencies": {
-    "vue": ">=3.0.0"
+    "vue": "^3.5.0"
   },
   "devDependencies": {
     "unbuild": "^2.0.0",
